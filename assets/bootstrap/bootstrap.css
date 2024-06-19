@@ -3910,7 +3910,7 @@ textarea.form-control-lg {
   border-top-right-radius: 0;
 }
 
-.nav {
+nav .filter {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
@@ -3918,7 +3918,7 @@ textarea.form-control-lg {
   list-style: none;
 }
 
-.nav-link {
+.filter-link {
   display: block;
   padding: 0.5rem 1rem;
   color: #0d6efd;
@@ -3926,76 +3926,76 @@ textarea.form-control-lg {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
-  .nav-link {
+  .filter-link {
     transition: none;
   }
 }
-.nav-link:hover, .nav-link:focus {
+.filter-link:hover, .filter-link:focus {
   color: #0a58ca;
 }
-.nav-link.disabled {
+.filter-link.disabled {
   color: #6c757d;
   pointer-events: none;
   cursor: default;
 }
 
-.nav-tabs {
+.filter-tabs {
   border-bottom: 1px solid #dee2e6;
 }
-.nav-tabs .nav-link {
+.filter-tabs .filter-link {
   margin-bottom: -1px;
   background: none;
   border: 1px solid transparent;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
-.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+.filter-tabs .filter-link:hover, .filter-tabs .filter-link:focus {
   border-color: #e9ecef #e9ecef #dee2e6;
   isolation: isolate;
 }
-.nav-tabs .nav-link.disabled {
+.filter-tabs .filter-link.disabled {
   color: #6c757d;
   background-color: transparent;
   border-color: transparent;
 }
-.nav-tabs .nav-link.active,
-.nav-tabs .nav-item.show .nav-link {
+.filter-tabs .filter-link.active,
+.filter-tabs .filter-item.show .filter-link {
   color: #495057;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
-.nav-tabs .dropdown-menu {
+.filter-tabs .dropdown-menu {
   margin-top: -1px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
 
-.nav-pills .nav-link {
+.filter-pills .filter-link {
   background: none;
   border: 0;
   border-radius: 0.25rem;
 }
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.filter-pills .filter-link.active,
+.filter-pills .show > .filter-link {
   color: #fff;
   background-color: #0d6efd;
 }
 
-.nav-fill > .nav-link,
-.nav-fill .nav-item {
+.filter-fill > .filter-link,
+.filter-fill .filter-item {
   flex: 1 1 auto;
   text-align: center;
 }
 
-.nav-justified > .nav-link,
-.nav-justified .nav-item {
+.filter-justified > .filter-link,
+.filter-justified .filter-item {
   flex-basis: 0;
   flex-grow: 1;
   text-align: center;
 }
 
-.nav-fill .nav-item .nav-link,
-.nav-justified .nav-item .nav-link {
+.filter-fill .filter-item .filter-link,
+.filter-justified .filter-item .filter-link {
   width: 100%;
 }
 
