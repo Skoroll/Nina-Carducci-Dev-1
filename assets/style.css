@@ -250,10 +250,7 @@ input[type="submit"] {
 .active-tag{
 	background-color: #BEB45A !important;	
 	border-radius: 0 !important;
-}
-
-.active-tag{
-	color: white !important;
+	color: rgb(7, 7, 7) !important;
 }
 
 .about-me__introduction{
